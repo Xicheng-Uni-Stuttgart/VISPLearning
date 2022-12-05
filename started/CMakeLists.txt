@@ -1,0 +1,6 @@
+project(tutorial-image)
+cmake_minimum_required(VERSION 3.0)
+find_package(VISP REQUIRED)
+include_directories(${VISP_INCLUDE_DIRS})
+add_executable(tutorial-viewer tutorial-viewer.cpp)
+target_link_libraries(tutorial-viewer ${VISP_LIBRARIES})
