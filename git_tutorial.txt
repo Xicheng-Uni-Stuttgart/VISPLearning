@@ -1,0 +1,25 @@
+some useful command
+
+#配置init
+git config --global init.defaultBranch main
+
+#初始化git
+git init
+
+#第一次关联本地仓库与github仓库
+git remote add origin git@github.com:Xicheng-Uni-Stuttgart/testfirst.git
+
+#第一次同步仓库到本地
+git pull git@github.com:Xicheng-Uni-Stuttgart/testfirst.git
+
+#第一次把本地的上传到仓库
+git add . ，add后面的点，表示的是提交所有文件。如果想指定提交文件，可以写文件名
+git commit -m "第一次提交github的测试"
+git push git@github.com:Xicheng-Uni-Stuttgart/testfirst.git
+
+#重命名branch
+git branch -m master main
+
+#push的用法
+如果修改过某些代码,宪宗git add .上传文件到索引库，然后用git commit提交到本地仓库，然后用
+git push origin main提交到github上面的main branch
