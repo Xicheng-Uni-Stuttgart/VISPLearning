@@ -1,3 +1,0 @@
-/home/hxc/visp-ws/VISPLearning/Image_Manipulation/build/CMakeFiles/edit_cache.dir
-/home/hxc/visp-ws/VISPLearning/Image_Manipulation/build/CMakeFiles/rebuild_cache.dir
-/home/hxc/visp-ws/VISPLearning/Image_Manipulation/build/CMakeFiles/testDisplays.dir

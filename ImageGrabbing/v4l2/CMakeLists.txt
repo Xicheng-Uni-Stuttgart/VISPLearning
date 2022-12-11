@@ -1,0 +1,6 @@
+project(tutorial-image)
+cmake_minimum_required(VERSION 3.0)
+find_package(VISP REQUIRED)
+include_directories(${VISP_INCLUDE_DIRS})
+add_executable(tutorial-grabber-v4l2 tutorial-grabber-v4l2.cpp)
+target_link_libraries(tutorial-grabber-v4l2 ${VISP_LIBRARIES})
