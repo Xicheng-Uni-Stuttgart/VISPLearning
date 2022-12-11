@@ -2,3 +2,4 @@
 /home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles/edit_cache.dir
 /home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles/tutorial-video-reader-images.dir
 /home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles/tutorial-video-reader-video.dir
+/home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles/tutorial-video-reader.dir

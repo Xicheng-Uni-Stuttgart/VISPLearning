@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = /home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/buil
 # The main recursive "all" target.
 all: CMakeFiles/tutorial-video-reader-images.dir/all
 all: CMakeFiles/tutorial-video-reader-video.dir/all
+all: CMakeFiles/tutorial-video-reader.dir/all
 
 .PHONY : all
 
@@ -66,6 +67,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/tutorial-video-reader-images.dir/clean
 clean: CMakeFiles/tutorial-video-reader-video.dir/clean
+clean: CMakeFiles/tutorial-video-reader.dir/clean
 
 .PHONY : clean
 
@@ -76,7 +78,7 @@ clean: CMakeFiles/tutorial-video-reader-video.dir/clean
 CMakeFiles/tutorial-video-reader-images.dir/all:
 	$(MAKE) -f CMakeFiles/tutorial-video-reader-images.dir/build.make CMakeFiles/tutorial-video-reader-images.dir/depend
 	$(MAKE) -f CMakeFiles/tutorial-video-reader-images.dir/build.make CMakeFiles/tutorial-video-reader-images.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles --progress-num=1,2 "Built target tutorial-video-reader-images"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles --progress-num=3,4 "Built target tutorial-video-reader-images"
 .PHONY : CMakeFiles/tutorial-video-reader-images.dir/all
 
 # Build rule for subdir invocation for target.
@@ -103,7 +105,7 @@ CMakeFiles/tutorial-video-reader-images.dir/clean:
 CMakeFiles/tutorial-video-reader-video.dir/all:
 	$(MAKE) -f CMakeFiles/tutorial-video-reader-video.dir/build.make CMakeFiles/tutorial-video-reader-video.dir/depend
 	$(MAKE) -f CMakeFiles/tutorial-video-reader-video.dir/build.make CMakeFiles/tutorial-video-reader-video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles --progress-num=3,4 "Built target tutorial-video-reader-video"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles --progress-num=5,6 "Built target tutorial-video-reader-video"
 .PHONY : CMakeFiles/tutorial-video-reader-video.dir/all
 
 # Build rule for subdir invocation for target.
@@ -122,6 +124,33 @@ tutorial-video-reader-video: CMakeFiles/tutorial-video-reader-video.dir/rule
 CMakeFiles/tutorial-video-reader-video.dir/clean:
 	$(MAKE) -f CMakeFiles/tutorial-video-reader-video.dir/build.make CMakeFiles/tutorial-video-reader-video.dir/clean
 .PHONY : CMakeFiles/tutorial-video-reader-video.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tutorial-video-reader.dir
+
+# All Build rule for target.
+CMakeFiles/tutorial-video-reader.dir/all:
+	$(MAKE) -f CMakeFiles/tutorial-video-reader.dir/build.make CMakeFiles/tutorial-video-reader.dir/depend
+	$(MAKE) -f CMakeFiles/tutorial-video-reader.dir/build.make CMakeFiles/tutorial-video-reader.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles --progress-num=1,2 "Built target tutorial-video-reader"
+.PHONY : CMakeFiles/tutorial-video-reader.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tutorial-video-reader.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tutorial-video-reader.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageGrabbing/videoreader/build/CMakeFiles 0
+.PHONY : CMakeFiles/tutorial-video-reader.dir/rule
+
+# Convenience name for target.
+tutorial-video-reader: CMakeFiles/tutorial-video-reader.dir/rule
+
+.PHONY : tutorial-video-reader
+
+# clean rule for target.
+CMakeFiles/tutorial-video-reader.dir/clean:
+	$(MAKE) -f CMakeFiles/tutorial-video-reader.dir/build.make CMakeFiles/tutorial-video-reader.dir/clean
+.PHONY : CMakeFiles/tutorial-video-reader.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -2,6 +2,7 @@ project(tutorial-image)
 cmake_minimum_required(VERSION 3.0)
 find_package(VISP REQUIRED)
 set(tutorial_cpp
+  tutorial-video-reader.cpp
   tutorial-video-reader-video.cpp
   tutorial-video-reader-images.cpp
  )

@@ -136,6 +136,19 @@ tutorial-video-reader-video/fast:
 	$(MAKE) -f CMakeFiles/tutorial-video-reader-video.dir/build.make CMakeFiles/tutorial-video-reader-video.dir/build
 .PHONY : tutorial-video-reader-video/fast
 
+#=============================================================================
+# Target rules for targets named tutorial-video-reader
+
+# Build rule for target.
+tutorial-video-reader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tutorial-video-reader
+.PHONY : tutorial-video-reader
+
+# fast build rule for target.
+tutorial-video-reader/fast:
+	$(MAKE) -f CMakeFiles/tutorial-video-reader.dir/build.make CMakeFiles/tutorial-video-reader.dir/build
+.PHONY : tutorial-video-reader/fast
+
 tutorial-video-reader-images.o: tutorial-video-reader-images.cpp.o
 
 .PHONY : tutorial-video-reader-images.o
@@ -190,6 +203,33 @@ tutorial-video-reader-video.cpp.s:
 	$(MAKE) -f CMakeFiles/tutorial-video-reader-video.dir/build.make CMakeFiles/tutorial-video-reader-video.dir/tutorial-video-reader-video.cpp.s
 .PHONY : tutorial-video-reader-video.cpp.s
 
+tutorial-video-reader.o: tutorial-video-reader.cpp.o
+
+.PHONY : tutorial-video-reader.o
+
+# target to build an object file
+tutorial-video-reader.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial-video-reader.dir/build.make CMakeFiles/tutorial-video-reader.dir/tutorial-video-reader.cpp.o
+.PHONY : tutorial-video-reader.cpp.o
+
+tutorial-video-reader.i: tutorial-video-reader.cpp.i
+
+.PHONY : tutorial-video-reader.i
+
+# target to preprocess a source file
+tutorial-video-reader.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial-video-reader.dir/build.make CMakeFiles/tutorial-video-reader.dir/tutorial-video-reader.cpp.i
+.PHONY : tutorial-video-reader.cpp.i
+
+tutorial-video-reader.s: tutorial-video-reader.cpp.s
+
+.PHONY : tutorial-video-reader.s
+
+# target to generate assembly for a file
+tutorial-video-reader.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial-video-reader.dir/build.make CMakeFiles/tutorial-video-reader.dir/tutorial-video-reader.cpp.s
+.PHONY : tutorial-video-reader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +240,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... tutorial-video-reader-images"
 	@echo "... tutorial-video-reader-video"
+	@echo "... tutorial-video-reader"
 	@echo "... tutorial-video-reader-images.o"
 	@echo "... tutorial-video-reader-images.i"
 	@echo "... tutorial-video-reader-images.s"
 	@echo "... tutorial-video-reader-video.o"
 	@echo "... tutorial-video-reader-video.i"
 	@echo "... tutorial-video-reader-video.s"
+	@echo "... tutorial-video-reader.o"
+	@echo "... tutorial-video-reader.i"
+	@echo "... tutorial-video-reader.s"
 .PHONY : help
 
 

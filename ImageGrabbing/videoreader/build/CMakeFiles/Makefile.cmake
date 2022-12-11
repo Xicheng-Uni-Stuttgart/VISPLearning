@@ -50,4 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tutorial-video-reader-images.dir/DependInfo.cmake"
   "CMakeFiles/tutorial-video-reader-video.dir/DependInfo.cmake"
+  "CMakeFiles/tutorial-video-reader.dir/DependInfo.cmake"
   )
