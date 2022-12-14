@@ -1,6 +1,9 @@
 /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/rebuild_cache.dir
+/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/tutorial-connected-components.dir
 /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/tutorial-autothreshold.dir
 /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/edit_cache.dir
+/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/tutorial-count-coins.dir
 /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/tutorial-contrast-sharpening.dir
+/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/tutorial-flood-fill.dir
 /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/tutorial-contour.dir
 /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles/tutorial-brightness-adjustment.dir

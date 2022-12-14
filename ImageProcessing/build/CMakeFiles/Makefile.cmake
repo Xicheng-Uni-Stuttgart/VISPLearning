@@ -48,8 +48,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/tutorial-connected-components.dir/DependInfo.cmake"
   "CMakeFiles/tutorial-autothreshold.dir/DependInfo.cmake"
+  "CMakeFiles/tutorial-count-coins.dir/DependInfo.cmake"
   "CMakeFiles/tutorial-contrast-sharpening.dir/DependInfo.cmake"
+  "CMakeFiles/tutorial-flood-fill.dir/DependInfo.cmake"
   "CMakeFiles/tutorial-contour.dir/DependInfo.cmake"
   "CMakeFiles/tutorial-brightness-adjustment.dir/DependInfo.cmake"
   )

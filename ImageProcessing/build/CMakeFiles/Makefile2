@@ -53,8 +53,11 @@ CMAKE_BINARY_DIR = /home/hxc/visp-ws/VISPLearning/ImageProcessing/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/tutorial-connected-components.dir/all
 all: CMakeFiles/tutorial-autothreshold.dir/all
+all: CMakeFiles/tutorial-count-coins.dir/all
 all: CMakeFiles/tutorial-contrast-sharpening.dir/all
+all: CMakeFiles/tutorial-flood-fill.dir/all
 all: CMakeFiles/tutorial-contour.dir/all
 all: CMakeFiles/tutorial-brightness-adjustment.dir/all
 
@@ -66,12 +69,42 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/tutorial-connected-components.dir/clean
 clean: CMakeFiles/tutorial-autothreshold.dir/clean
+clean: CMakeFiles/tutorial-count-coins.dir/clean
 clean: CMakeFiles/tutorial-contrast-sharpening.dir/clean
+clean: CMakeFiles/tutorial-flood-fill.dir/clean
 clean: CMakeFiles/tutorial-contour.dir/clean
 clean: CMakeFiles/tutorial-brightness-adjustment.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tutorial-connected-components.dir
+
+# All Build rule for target.
+CMakeFiles/tutorial-connected-components.dir/all:
+	$(MAKE) -f CMakeFiles/tutorial-connected-components.dir/build.make CMakeFiles/tutorial-connected-components.dir/depend
+	$(MAKE) -f CMakeFiles/tutorial-connected-components.dir/build.make CMakeFiles/tutorial-connected-components.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles --progress-num=5,6 "Built target tutorial-connected-components"
+.PHONY : CMakeFiles/tutorial-connected-components.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tutorial-connected-components.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tutorial-connected-components.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles 0
+.PHONY : CMakeFiles/tutorial-connected-components.dir/rule
+
+# Convenience name for target.
+tutorial-connected-components: CMakeFiles/tutorial-connected-components.dir/rule
+
+.PHONY : tutorial-connected-components
+
+# clean rule for target.
+CMakeFiles/tutorial-connected-components.dir/clean:
+	$(MAKE) -f CMakeFiles/tutorial-connected-components.dir/build.make CMakeFiles/tutorial-connected-components.dir/clean
+.PHONY : CMakeFiles/tutorial-connected-components.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tutorial-autothreshold.dir
@@ -101,13 +134,40 @@ CMakeFiles/tutorial-autothreshold.dir/clean:
 .PHONY : CMakeFiles/tutorial-autothreshold.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tutorial-count-coins.dir
+
+# All Build rule for target.
+CMakeFiles/tutorial-count-coins.dir/all:
+	$(MAKE) -f CMakeFiles/tutorial-count-coins.dir/build.make CMakeFiles/tutorial-count-coins.dir/depend
+	$(MAKE) -f CMakeFiles/tutorial-count-coins.dir/build.make CMakeFiles/tutorial-count-coins.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles --progress-num=11,12 "Built target tutorial-count-coins"
+.PHONY : CMakeFiles/tutorial-count-coins.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tutorial-count-coins.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tutorial-count-coins.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles 0
+.PHONY : CMakeFiles/tutorial-count-coins.dir/rule
+
+# Convenience name for target.
+tutorial-count-coins: CMakeFiles/tutorial-count-coins.dir/rule
+
+.PHONY : tutorial-count-coins
+
+# clean rule for target.
+CMakeFiles/tutorial-count-coins.dir/clean:
+	$(MAKE) -f CMakeFiles/tutorial-count-coins.dir/build.make CMakeFiles/tutorial-count-coins.dir/clean
+.PHONY : CMakeFiles/tutorial-count-coins.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tutorial-contrast-sharpening.dir
 
 # All Build rule for target.
 CMakeFiles/tutorial-contrast-sharpening.dir/all:
 	$(MAKE) -f CMakeFiles/tutorial-contrast-sharpening.dir/build.make CMakeFiles/tutorial-contrast-sharpening.dir/depend
 	$(MAKE) -f CMakeFiles/tutorial-contrast-sharpening.dir/build.make CMakeFiles/tutorial-contrast-sharpening.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles --progress-num=7,8 "Built target tutorial-contrast-sharpening"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles --progress-num=9,10 "Built target tutorial-contrast-sharpening"
 .PHONY : CMakeFiles/tutorial-contrast-sharpening.dir/all
 
 # Build rule for subdir invocation for target.
@@ -128,13 +188,40 @@ CMakeFiles/tutorial-contrast-sharpening.dir/clean:
 .PHONY : CMakeFiles/tutorial-contrast-sharpening.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tutorial-flood-fill.dir
+
+# All Build rule for target.
+CMakeFiles/tutorial-flood-fill.dir/all:
+	$(MAKE) -f CMakeFiles/tutorial-flood-fill.dir/build.make CMakeFiles/tutorial-flood-fill.dir/depend
+	$(MAKE) -f CMakeFiles/tutorial-flood-fill.dir/build.make CMakeFiles/tutorial-flood-fill.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles --progress-num=13,14 "Built target tutorial-flood-fill"
+.PHONY : CMakeFiles/tutorial-flood-fill.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tutorial-flood-fill.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tutorial-flood-fill.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles 0
+.PHONY : CMakeFiles/tutorial-flood-fill.dir/rule
+
+# Convenience name for target.
+tutorial-flood-fill: CMakeFiles/tutorial-flood-fill.dir/rule
+
+.PHONY : tutorial-flood-fill
+
+# clean rule for target.
+CMakeFiles/tutorial-flood-fill.dir/clean:
+	$(MAKE) -f CMakeFiles/tutorial-flood-fill.dir/build.make CMakeFiles/tutorial-flood-fill.dir/clean
+.PHONY : CMakeFiles/tutorial-flood-fill.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tutorial-contour.dir
 
 # All Build rule for target.
 CMakeFiles/tutorial-contour.dir/all:
 	$(MAKE) -f CMakeFiles/tutorial-contour.dir/build.make CMakeFiles/tutorial-contour.dir/depend
 	$(MAKE) -f CMakeFiles/tutorial-contour.dir/build.make CMakeFiles/tutorial-contour.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles --progress-num=5,6 "Built target tutorial-contour"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxc/visp-ws/VISPLearning/ImageProcessing/build/CMakeFiles --progress-num=7,8 "Built target tutorial-contour"
 .PHONY : CMakeFiles/tutorial-contour.dir/all
 
 # Build rule for subdir invocation for target.

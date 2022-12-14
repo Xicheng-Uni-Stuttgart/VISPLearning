@@ -6,6 +6,9 @@ set(tutorial_cpp
   tutorial-contrast-sharpening.cpp
   tutorial-autothreshold.cpp
   tutorial-contour.cpp
+  tutorial-connected-components.cpp
+  tutorial-flood-fill.cpp
+  tutorial-count-coins.cpp
  )
 
 foreach(cpp ${tutorial_cpp})

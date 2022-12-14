@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named tutorial-connected-components
+
+# Build rule for target.
+tutorial-connected-components: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tutorial-connected-components
+.PHONY : tutorial-connected-components
+
+# fast build rule for target.
+tutorial-connected-components/fast:
+	$(MAKE) -f CMakeFiles/tutorial-connected-components.dir/build.make CMakeFiles/tutorial-connected-components.dir/build
+.PHONY : tutorial-connected-components/fast
+
+#=============================================================================
 # Target rules for targets named tutorial-autothreshold
 
 # Build rule for target.
@@ -124,6 +137,19 @@ tutorial-autothreshold/fast:
 .PHONY : tutorial-autothreshold/fast
 
 #=============================================================================
+# Target rules for targets named tutorial-count-coins
+
+# Build rule for target.
+tutorial-count-coins: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tutorial-count-coins
+.PHONY : tutorial-count-coins
+
+# fast build rule for target.
+tutorial-count-coins/fast:
+	$(MAKE) -f CMakeFiles/tutorial-count-coins.dir/build.make CMakeFiles/tutorial-count-coins.dir/build
+.PHONY : tutorial-count-coins/fast
+
+#=============================================================================
 # Target rules for targets named tutorial-contrast-sharpening
 
 # Build rule for target.
@@ -135,6 +161,19 @@ tutorial-contrast-sharpening: cmake_check_build_system
 tutorial-contrast-sharpening/fast:
 	$(MAKE) -f CMakeFiles/tutorial-contrast-sharpening.dir/build.make CMakeFiles/tutorial-contrast-sharpening.dir/build
 .PHONY : tutorial-contrast-sharpening/fast
+
+#=============================================================================
+# Target rules for targets named tutorial-flood-fill
+
+# Build rule for target.
+tutorial-flood-fill: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tutorial-flood-fill
+.PHONY : tutorial-flood-fill
+
+# fast build rule for target.
+tutorial-flood-fill/fast:
+	$(MAKE) -f CMakeFiles/tutorial-flood-fill.dir/build.make CMakeFiles/tutorial-flood-fill.dir/build
+.PHONY : tutorial-flood-fill/fast
 
 #=============================================================================
 # Target rules for targets named tutorial-contour
@@ -216,6 +255,33 @@ tutorial-brightness-adjustment.cpp.s:
 	$(MAKE) -f CMakeFiles/tutorial-brightness-adjustment.dir/build.make CMakeFiles/tutorial-brightness-adjustment.dir/tutorial-brightness-adjustment.cpp.s
 .PHONY : tutorial-brightness-adjustment.cpp.s
 
+tutorial-connected-components.o: tutorial-connected-components.cpp.o
+
+.PHONY : tutorial-connected-components.o
+
+# target to build an object file
+tutorial-connected-components.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial-connected-components.dir/build.make CMakeFiles/tutorial-connected-components.dir/tutorial-connected-components.cpp.o
+.PHONY : tutorial-connected-components.cpp.o
+
+tutorial-connected-components.i: tutorial-connected-components.cpp.i
+
+.PHONY : tutorial-connected-components.i
+
+# target to preprocess a source file
+tutorial-connected-components.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial-connected-components.dir/build.make CMakeFiles/tutorial-connected-components.dir/tutorial-connected-components.cpp.i
+.PHONY : tutorial-connected-components.cpp.i
+
+tutorial-connected-components.s: tutorial-connected-components.cpp.s
+
+.PHONY : tutorial-connected-components.s
+
+# target to generate assembly for a file
+tutorial-connected-components.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial-connected-components.dir/build.make CMakeFiles/tutorial-connected-components.dir/tutorial-connected-components.cpp.s
+.PHONY : tutorial-connected-components.cpp.s
+
 tutorial-contour.o: tutorial-contour.cpp.o
 
 .PHONY : tutorial-contour.o
@@ -270,6 +336,60 @@ tutorial-contrast-sharpening.cpp.s:
 	$(MAKE) -f CMakeFiles/tutorial-contrast-sharpening.dir/build.make CMakeFiles/tutorial-contrast-sharpening.dir/tutorial-contrast-sharpening.cpp.s
 .PHONY : tutorial-contrast-sharpening.cpp.s
 
+tutorial-count-coins.o: tutorial-count-coins.cpp.o
+
+.PHONY : tutorial-count-coins.o
+
+# target to build an object file
+tutorial-count-coins.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial-count-coins.dir/build.make CMakeFiles/tutorial-count-coins.dir/tutorial-count-coins.cpp.o
+.PHONY : tutorial-count-coins.cpp.o
+
+tutorial-count-coins.i: tutorial-count-coins.cpp.i
+
+.PHONY : tutorial-count-coins.i
+
+# target to preprocess a source file
+tutorial-count-coins.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial-count-coins.dir/build.make CMakeFiles/tutorial-count-coins.dir/tutorial-count-coins.cpp.i
+.PHONY : tutorial-count-coins.cpp.i
+
+tutorial-count-coins.s: tutorial-count-coins.cpp.s
+
+.PHONY : tutorial-count-coins.s
+
+# target to generate assembly for a file
+tutorial-count-coins.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial-count-coins.dir/build.make CMakeFiles/tutorial-count-coins.dir/tutorial-count-coins.cpp.s
+.PHONY : tutorial-count-coins.cpp.s
+
+tutorial-flood-fill.o: tutorial-flood-fill.cpp.o
+
+.PHONY : tutorial-flood-fill.o
+
+# target to build an object file
+tutorial-flood-fill.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial-flood-fill.dir/build.make CMakeFiles/tutorial-flood-fill.dir/tutorial-flood-fill.cpp.o
+.PHONY : tutorial-flood-fill.cpp.o
+
+tutorial-flood-fill.i: tutorial-flood-fill.cpp.i
+
+.PHONY : tutorial-flood-fill.i
+
+# target to preprocess a source file
+tutorial-flood-fill.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial-flood-fill.dir/build.make CMakeFiles/tutorial-flood-fill.dir/tutorial-flood-fill.cpp.i
+.PHONY : tutorial-flood-fill.cpp.i
+
+tutorial-flood-fill.s: tutorial-flood-fill.cpp.s
+
+.PHONY : tutorial-flood-fill.s
+
+# target to generate assembly for a file
+tutorial-flood-fill.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial-flood-fill.dir/build.make CMakeFiles/tutorial-flood-fill.dir/tutorial-flood-fill.cpp.s
+.PHONY : tutorial-flood-fill.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,9 +397,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... tutorial-connected-components"
 	@echo "... tutorial-autothreshold"
 	@echo "... edit_cache"
+	@echo "... tutorial-count-coins"
 	@echo "... tutorial-contrast-sharpening"
+	@echo "... tutorial-flood-fill"
 	@echo "... tutorial-contour"
 	@echo "... tutorial-brightness-adjustment"
 	@echo "... tutorial-autothreshold.o"
@@ -288,12 +411,21 @@ help:
 	@echo "... tutorial-brightness-adjustment.o"
 	@echo "... tutorial-brightness-adjustment.i"
 	@echo "... tutorial-brightness-adjustment.s"
+	@echo "... tutorial-connected-components.o"
+	@echo "... tutorial-connected-components.i"
+	@echo "... tutorial-connected-components.s"
 	@echo "... tutorial-contour.o"
 	@echo "... tutorial-contour.i"
 	@echo "... tutorial-contour.s"
 	@echo "... tutorial-contrast-sharpening.o"
 	@echo "... tutorial-contrast-sharpening.i"
 	@echo "... tutorial-contrast-sharpening.s"
+	@echo "... tutorial-count-coins.o"
+	@echo "... tutorial-count-coins.i"
+	@echo "... tutorial-count-coins.s"
+	@echo "... tutorial-flood-fill.o"
+	@echo "... tutorial-flood-fill.i"
+	@echo "... tutorial-flood-fill.s"
 .PHONY : help
 
 
