@@ -1,0 +1,1085 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tutorial-mb-generic-tracker-rgbd-realsense"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"visp_add_target",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/home/hxc/visp-ws/visp-build/VISPConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 356,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 357,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 355,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fopenmp -fPIC  "
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp-build/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/core/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/gui/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/io/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/klt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/me/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/sensor/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/ar/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/blob/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/robot/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/visual_features/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/vs/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/vision/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/detection/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/mbt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/tt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/tt_mi/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/opencv4"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/libxml2"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/libusb-1.0"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/pcl-1.10"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/ni"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/openni2"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "tutorial-mb-generic-tracker-rgbd-realsense::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fopenmp -fPIC",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/hxc/visp-ws/visp-build/lib:/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_vs.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_tt_mi.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_tt.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_mbt.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_klt.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_robot.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_imgproc.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_gui.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_detection.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_ar.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_sensor.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lv4l2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lv4lconvert",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldc1394",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lusb-1.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/librealsense2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lboost_system",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lboost_filesystem",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lboost_date_time",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lboost_iostreams",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lboost_regex",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lqhull",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lOpenNI",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lOpenNI2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lfreetype",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ltiff",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lexpat",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_common",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_kdtree",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_octree",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_search",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_sample_consensus",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_filters",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_io",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_features",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_ml",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_segmentation",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_visualization",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_surface",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_registration",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_keypoints",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_tracking",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_recognition",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_stereo",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_apps",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_outofcore",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_people",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lflann_cpp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lfreetype",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ltiff",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lexpat",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_common",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_kdtree",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_octree",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_search",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_sample_consensus",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_filters",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_io",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_features",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_ml",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_segmentation",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_visualization",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_surface",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_registration",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_keypoints",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_tracking",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_recognition",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_stereo",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_apps",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_outofcore",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpcl_people",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lflann_cpp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLEW",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lXt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llz4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lOpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLX",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLU",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lSM",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lICE",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lX11",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lXext",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_vision.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_visual_features.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_me.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_blob.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_io.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ljpeg",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpng",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_core.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lxml2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgomp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgomp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lzbar",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lnsl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tutorial-mb-generic-tracker-rgbd-realsense",
+	"nameOnDisk" : "tutorial-mb-generic-tracker-rgbd-realsense",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "tutorial-mb-generic-tracker-rgbd-realsense.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

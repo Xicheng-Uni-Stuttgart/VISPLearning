@@ -31,6 +31,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/opencv4"
   "/usr/include/eigen3"
   "/usr/include/libxml2"
+  "/usr/include/libusb-1.0"
   )
 
 # Targets to which this target links.

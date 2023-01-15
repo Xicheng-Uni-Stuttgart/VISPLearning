@@ -1,0 +1,432 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tutorial-mb-generic-tracker"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"visp_add_target",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/home/hxc/visp-ws/visp-build/VISPConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 356,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 357,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 355,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fopenmp -fPIC -O3 -DNDEBUG  "
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp-build/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/core/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/gui/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/io/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/klt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/me/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/sensor/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/ar/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/blob/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/robot/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/visual_features/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/vs/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/vision/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/detection/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/mbt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/tt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/hxc/visp-ws/visp/modules/tracker/tt_mi/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/opencv4"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/libxml2"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/libusb-1.0"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "tutorial-mb-generic-tracker::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fopenmp -fPIC -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/hxc/visp-ws/visp-build/lib:/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_vs.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_tt_mi.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_tt.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_mbt.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_klt.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_robot.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_imgproc.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_gui.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_detection.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_ar.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_sensor.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lv4l2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lv4lconvert",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldc1394",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lusb-1.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/librealsense2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lSM",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lICE",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lX11",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lXext",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_vision.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_visual_features.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_me.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_blob.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_io.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ljpeg",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpng",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hxc/visp-ws/visp-build/lib/libvisp_core.so.3.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lblas",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lxml2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgomp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgomp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lzbar",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lnsl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tutorial-mb-generic-tracker",
+	"nameOnDisk" : "tutorial-mb-generic-tracker",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "tutorial-mb-generic-tracker.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

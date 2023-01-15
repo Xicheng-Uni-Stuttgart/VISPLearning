@@ -1,0 +1,3 @@
+/home/hxc/visp-ws/VISPLearning/Tracking/MovingEdgesTracking/build/CMakeFiles/rebuild_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/MovingEdgesTracking/build/CMakeFiles/edit_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/MovingEdgesTracking/build/CMakeFiles/tutorial-me-line-tracker.dir

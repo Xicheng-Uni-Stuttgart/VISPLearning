@@ -1,0 +1,4 @@
+/home/hxc/visp-ws/VISPLearning/Tracking/KeyPointTracking/build/CMakeFiles/rebuild_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/KeyPointTracking/build/CMakeFiles/edit_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/KeyPointTracking/build/CMakeFiles/tutorial-klt-tracker-live-v4l2.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/KeyPointTracking/build/CMakeFiles/tutorial-klt-tracker.dir

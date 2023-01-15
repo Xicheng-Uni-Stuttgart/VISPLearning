@@ -10,7 +10,7 @@ int main(int argc, const char *argv[])
 {
 #if defined(VISP_HAVE_V4L2) && (VISP_CXX_STANDARD >= VISP_CXX_STANDARD_11)
    try {
-     int opt_device = 0; // 如果外接usb摄像头，/dev/video0 - /dev/video3 为电脑自带摄像头，dev/video4 - /dev/video7 为外接usb摄像头
+     int opt_device = 4; // 如果外接usb摄像头，/dev/video0 - /dev/video3 为电脑自带摄像头，dev/video4 - /dev/video7 为外接usb摄像头
      unsigned int opt_scale = 1; // Default value is 2 in the constructor. Turn
                                  // it to 1 to avoid subsampling
      std::string opt_seqname;

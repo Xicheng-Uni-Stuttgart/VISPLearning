@@ -94,6 +94,8 @@ tutorial-grabber-v4l2: /home/hxc/visp-ws/visp-build/lib/libvisp_sensor.so.3.5.1
 tutorial-grabber-v4l2: /usr/lib/x86_64-linux-gnu/libv4l2.so
 tutorial-grabber-v4l2: /usr/lib/x86_64-linux-gnu/libv4lconvert.so
 tutorial-grabber-v4l2: /usr/lib/x86_64-linux-gnu/libdc1394.so
+tutorial-grabber-v4l2: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+tutorial-grabber-v4l2: /usr/local/lib/librealsense2.so
 tutorial-grabber-v4l2: /usr/lib/x86_64-linux-gnu/libSM.so
 tutorial-grabber-v4l2: /usr/lib/x86_64-linux-gnu/libICE.so
 tutorial-grabber-v4l2: /usr/lib/x86_64-linux-gnu/libX11.so

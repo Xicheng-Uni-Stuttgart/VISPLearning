@@ -1,0 +1,3 @@
+/home/hxc/visp-ws/VISPLearning/Tracking/ModelBasedTracking/RGBDCamera/build/CMakeFiles/rebuild_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/ModelBasedTracking/RGBDCamera/build/CMakeFiles/edit_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/ModelBasedTracking/RGBDCamera/build/CMakeFiles/tutorial-mb-generic-tracker-rgbd-realsense.dir

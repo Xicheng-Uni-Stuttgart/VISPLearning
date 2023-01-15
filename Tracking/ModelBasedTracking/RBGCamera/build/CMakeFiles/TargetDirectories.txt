@@ -1,0 +1,4 @@
+/home/hxc/visp-ws/VISPLearning/Tracking/ModelBasedTracking/RBGCamera/build/CMakeFiles/rebuild_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/ModelBasedTracking/RBGCamera/build/CMakeFiles/edit_cache.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/ModelBasedTracking/RBGCamera/build/CMakeFiles/tutorial-mb-generic-tracker-live.dir
+/home/hxc/visp-ws/VISPLearning/Tracking/ModelBasedTracking/RBGCamera/build/CMakeFiles/tutorial-mb-generic-tracker.dir
